@@ -19,3 +19,8 @@ wechat:
   openAppSecret:
   notifyUrl:
 
+projectUrl:
+  wechatMpAuthorize: http://sileo.natapp1.cc
+  wechatOpenAuthorize: http://sileo.natapp1.cc
+  sell: http://sileo.natapp1.cc
+
