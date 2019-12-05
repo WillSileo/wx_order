@@ -1,0 +1,21 @@
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.106.76.87:3306/bootPra?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 0okm(IJN
+  jpa:
+    database-platform : org.hibernate.dialect.MySQLDialect
+server:
+  context-path: /sell
+
+wechat:
+  mpAppId: wxec511acd6750376c
+  mpAppSecret: 400f69097e9cc680f230ef6eca021a18
+  openAppId:
+  openAppSecret:
+  notifyUrl:
+
