@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49956ef2-60fd-4c6e-9e17-6fbff189d70a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/wx_order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/VO/ProductInfoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/VO/ProductVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/VO/ResultVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/WxOrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/config/ProjectUrlConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/config/WeChatAccountConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/config/WeChatConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/controller/BuyerOrderControlller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/controller/BuyerProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/controller/WeChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/controller/WeiXinController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/convert/OrderForm2OrderDTOConvert$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/convert/OrderForm2OrderDTOConvert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/convert/OrderMaster2OrderDTOConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dataobject/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dataobject/OrderMaster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dataobject/ProductCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dataobject/ProductInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dataobject/SellerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dataobject/mapper/ProductCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dto/CartDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/dto/OrderDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/enums/CodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/enums/OrderStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/enums/PayStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/enums/ProductStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/enums/ResultEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/exception/SellException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/form/OrderForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/repository/OrderDetailRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/repository/OrderMasterRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/repository/ProductInfoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/BuyerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/OrderMasterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/ProductCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/ProductInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/impl/BuyerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/impl/OrderMasterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/impl/ProductCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/service/impl/ProductInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/utils/EnumUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/utils/KeyUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/utils/ResultVOUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sileo/utils/serializer/Date2LongSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sileo/WxOrderApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sileo/dataobject/mapper/ProductCategoryMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sileo/repository/OrderDetailRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sileo/repository/OrderMasterRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sileo/repository/ProductInfoRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sileo/service/impl/OrderMasterServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sileo/service/impl/ProductInfoServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/wx_order$ProductInfoServiceImplTest_findAll.ic" NAME="ProductInfoServiceImplTest.findAll Coverage Results" MODIFIED="1574345404691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sileo.service.impl.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wx_order" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Pageable</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\MyProject\wx_order\src\main\java\com\sileo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sileo" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ProductInfoServiceImplTest.findAll" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectId" id="1UneYiHNOKgRzaBb15u0IRANoPQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575886725515" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sileo.repository" />
+      <recent name="com.sileo.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProject\wx_order\src\main\java\com\sileo\utils" />
+      <recent name="E:\MyProject\wx_order\src\main\java\com\sileo\enums" />
+      <recent name="E:\MyProject\wx_order\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WxOrderApplication">
+    <configuration name="WxOrderApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sileo.WxOrderApplication" />
+      <module name="wx_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sileo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMasterServiceImplTest.cancle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wx_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sileo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sileo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sileo.service.impl.OrderMasterServiceImplTest" />
+      <option name="METHOD_NAME" value="cancle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMasterServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wx_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sileo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sileo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sileo.service.impl.OrderMasterServiceImplTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMasterServiceImplTest.findList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wx_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sileo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sileo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sileo.service.impl.OrderMasterServiceImplTest" />
+      <option name="METHOD_NAME" value="findList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMasterServiceImplTest.finsh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wx_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sileo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sileo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sileo.service.impl.OrderMasterServiceImplTest" />
+      <option name="METHOD_NAME" value="finsh" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMasterServiceImplTest.paid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wx_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sileo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sileo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sileo.service.impl.OrderMasterServiceImplTest" />
+      <option name="METHOD_NAME" value="paid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductInfoServiceImplTest.findAll" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="wx_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sileo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sileo.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sileo.service.impl.ProductInfoServiceImplTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WxOrderApplication" />
+      <item itemvalue="JUnit.ProductInfoServiceImplTest.findAll" />
+      <item itemvalue="JUnit.OrderMasterServiceImplTest.cancle" />
+      <item itemvalue="JUnit.OrderMasterServiceImplTest.create" />
+      <item itemvalue="JUnit.OrderMasterServiceImplTest.findList" />
+      <item itemvalue="JUnit.OrderMasterServiceImplTest.finsh" />
+      <item itemvalue="JUnit.OrderMasterServiceImplTest.paid" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderMasterServiceImplTest.paid" />
+        <item itemvalue="JUnit.OrderMasterServiceImplTest.finsh" />
+        <item itemvalue="JUnit.OrderMasterServiceImplTest.findList" />
+        <item itemvalue="JUnit.OrderMasterServiceImplTest.create" />
+        <item itemvalue="JUnit.OrderMasterServiceImplTest.cancle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49956ef2-60fd-4c6e-9e17-6fbff189d70a" name="Default Changelist" comment="" />
+      <created>1574236584133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574236584133</updated>
+      <workItem from="1575885958124" duration="412000" />
+      <workItem from="1575996840009" duration="48000" />
+      <workItem from="1576329214222" duration="231000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1575532978158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575532978158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="微信授权">
+      <created>1575565361865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575565361865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OrderMasterServiceImplTest_finsh - 2019.11.25 at 14h 45m 58s.xml">
+      <configuration name="OrderMasterServiceImplTest.finsh" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_paid - 2019.11.25 at 14h 46m 32s.xml">
+      <configuration name="OrderMasterServiceImplTest.paid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_finsh - 2019.11.25 at 14h 46m 52s.xml">
+      <configuration name="OrderMasterServiceImplTest.finsh" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_finsh - 2019.11.26 at 22h 44m 00s.xml">
+      <configuration name="OrderMasterServiceImplTest.finsh" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_findList - 2019.11.26 at 23h 21m 27s.xml">
+      <configuration name="OrderMasterServiceImplTest.findList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_findList - 2019.11.26 at 23h 28m 00s.xml">
+      <configuration name="OrderMasterServiceImplTest.findList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_findList - 2019.11.26 at 23h 32m 32s.xml">
+      <configuration name="OrderMasterServiceImplTest.findList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_findList - 2019.11.26 at 23h 33m 25s.xml">
+      <configuration name="OrderMasterServiceImplTest.findList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_findList - 2019.11.26 at 23h 33m 54s.xml">
+      <configuration name="OrderMasterServiceImplTest.findList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderMasterServiceImplTest_findList - 2019.11.26 at 23h 34m 26s.xml">
+      <configuration name="OrderMasterServiceImplTest.findList" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="微信授权" />
+    <option name="LAST_COMMIT_MESSAGE" value="微信授权" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sileo/repository/ProductInfoRepositoryTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>wx_order</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
